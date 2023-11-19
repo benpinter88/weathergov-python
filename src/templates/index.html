@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <h1>Weather Forecast for {{ location }}</h1>
+    {% for period in forecast %}
+        <div>
+            <h2>{{ period.name }}</h2>
+            <p>{{ period.detailedForecast }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
