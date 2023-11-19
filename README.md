@@ -7,7 +7,9 @@ This repository contains two very simple applications for displaying weather for
 ### Terminal Application
 - Fetches and displays weather forecasts for a specified location directly in the terminal.
 - Utilizes GeoPy to convert location names to geographical coordinates. [GeoPy](https://geopy.readthedocs.io/en/stable/#)
-- Retrieves weather forecast data using the [National Weather Service API](https://weather-gov.github.io/api/general-faqs) 
+- Retrieves weather forecast data using the [National Weather Service API](https://weather-gov.github.io/api/general-faqs)
+- Step 1: we get the weather Grid URL based on latitude, longitude `https://api.weather.gov/points/{lat},{lon}.`
+- Step 2: get the forecast data json from the Grid URL we got in step 1 from the metadata.
 
 ### Web Application
 - Code mainly lifted from terminal application
