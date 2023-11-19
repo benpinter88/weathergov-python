@@ -27,7 +27,7 @@ This repository contains two very simple applications for displaying weather for
 
 ## Setup and Installation
 1. Clone the repository:
-`git clone [https://github.com/benpinter88/weathergov-python]`
+`git clone https://github.com/benpinter88/weathergov-python`
 2. Install required packages:
 `pip install Flask geopy requests`
 
