@@ -1,6 +1,5 @@
 # weathergov-python
-Show weather forecast using weather.gov api
-# Weather Forecast Applications
+Show weather forecast for a location using weather.gov api
 
 ## Description
 This repository contains two very simple applications for displaying weather forecasts: a terminal app and a web app. Both applications fetch weather data based on geographical coordinates of a provided location name within the United States. (Cambridge, MA for example).
